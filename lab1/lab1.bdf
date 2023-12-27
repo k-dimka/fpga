@@ -21,9 +21,9 @@ refer to the applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 112 256 280 272)
+	(rect 112 224 280 240)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "key[1]" (rect 5 0 37 12)(font "Arial" ))
+	(text "key[1]" (rect 5 0 36 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 112 312 280 328)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "key[2]" (rect 5 0 36 17)(font "Intel Clear" ))
+	(text "key[2]" (rect 5 0 35 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -190,7 +190,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 280 248 328 280)
+	(rect 280 216 328 248)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst4" (rect 3 21 25 38)(font "Intel Clear" ))
 	(port
@@ -240,20 +240,8 @@ refer to the applicable agreement for further details.
 	)
 )
 (connector
-	(pt 384 232)
-	(pt 344 232)
-)
-(connector
-	(pt 344 232)
-	(pt 344 264)
-)
-(connector
 	(pt 344 304)
 	(pt 384 304)
-)
-(connector
-	(pt 344 264)
-	(pt 344 304)
 )
 (connector
 	(pt 344 304)
@@ -264,8 +252,26 @@ refer to the applicable agreement for further details.
 	(pt 384 368)
 )
 (connector
+	(pt 344 232)
+	(pt 344 304)
+)
+(connector
+	(text "a" (rect 338 216 343 233)(font "Intel Clear" ))
+	(pt 328 232)
+	(pt 344 232)
+)
+(connector
+	(pt 344 232)
+	(pt 384 232)
+)
+(connector
 	(pt 368 320)
 	(pt 368 248)
+)
+(connector
+	(text "b" (rect 338 304 343 321)(font "Intel Clear" ))
+	(pt 328 320)
+	(pt 368 320)
 )
 (connector
 	(pt 368 320)
@@ -277,19 +283,9 @@ refer to the applicable agreement for further details.
 )
 (connector
 	(pt 384 248)
-	(pt 392 248)
+	(pt 400 248)
 )
-(connector
-	(text "a" (rect 338 248 343 265)(font "Intel Clear" ))
-	(pt 328 264)
-	(pt 344 264)
-)
-(connector
-	(text "b" (rect 338 304 343 321)(font "Intel Clear" ))
-	(pt 328 320)
-	(pt 368 320)
-)
-(junction (pt 344 264))
 (junction (pt 344 304))
+(junction (pt 344 232))
 (junction (pt 368 320))
 (junction (pt 384 248))

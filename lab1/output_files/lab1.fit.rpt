@@ -1,5 +1,5 @@
 Fitter report for lab1
-Wed Dec 27 20:12:50 2023
+Wed Dec 27 20:36:37 2023
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -63,7 +63,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Wed Dec 27 20:12:50 2023       ;
+; Fitter Status                      ; Successful - Wed Dec 27 20:36:37 2023       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; lab1                                        ;
 ; Top-level Entity Name              ; lab1                                        ;
@@ -823,8 +823,8 @@ Warning (169177): 2 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2
 Info (144001): Generated suppressed messages file C:/fpga/lab1/output_files/lab1.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 7 warnings
     Info: Peak virtual memory: 5606 megabytes
-    Info: Processing ended: Wed Dec 27 20:12:50 2023
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Wed Dec 27 20:36:38 2023
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 
 
